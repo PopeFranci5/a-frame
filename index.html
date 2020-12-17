@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #FAFAFA">
+        <a-plane position="0 -1 0" width="200" height="200s" rotation="-90 0 0" color="#C80" static-body></a-plane>
+        <a-box position="0 2 0" width="3" height="15" rotation="60 0 0" src="assets/TexturesCom_Gorilla0011_S.jpg"
+            static-body>
+        </a-box>
+        <a-sphere position="0 7 5" radius="0.7" src="assets/pope.jpg" dynamic-body></a-sphere>
+        <a-sky src="assets/sky.jpg"></a-sky>
+
+    </a-scene>
+</body>
+
+</html>
